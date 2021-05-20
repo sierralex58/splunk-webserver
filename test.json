@@ -1,0 +1,471 @@
+{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "org.mongodb.driver.cluster",
+    "time": "1620637895.556",
+    "thread": "cluster-ClusterId{value='6098f8c7078eaf808f815147', description='null'}-127.0.0.1:23001",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637895,
+        "nanoOfSecond": 556000000
+      },
+      "thread": "cluster-ClusterId{value='6098f8c7078eaf808f815147', description='null'}-127.0.0.1:23001",
+      "level": "INFO",
+      "loggerName": "org.mongodb.driver.cluster",
+      "message": "Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:23001, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1560129}",
+      "endOfBatch": false,
+      "loggerFqcn": "org.slf4j.impl.Log4jLoggerAdapter",
+      "contextMap": {},
+      "threadId": 31,
+      "threadPriority": 5
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "org.mongodb.driver.cluster",
+    "time": "1620637895.556",
+    "thread": "cluster-ClusterId{value='6098f8c7078eaf808f815147', description='null'}-127.0.0.1:23001",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637895,
+        "nanoOfSecond": 556000000
+      },
+      "thread": "cluster-ClusterId{value='6098f8c7078eaf808f815147', description='null'}-127.0.0.1:23001",
+      "level": "INFO",
+      "loggerName": "org.mongodb.driver.cluster",
+      "message": "Discovered cluster type of STANDALONE",
+      "endOfBatch": false,
+      "loggerFqcn": "org.slf4j.impl.Log4jLoggerAdapter",
+      "contextMap": {},
+      "threadId": 31,
+      "threadPriority": 5
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "nctmi.bas.NctmiQosStatusJob",
+    "time": "1620637895.825",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637895,
+        "nanoOfSecond": 825000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "nctmi.bas.NctmiQosStatusJob",
+      "message": "updating QoS tunnel status...",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.applname": "nctmi",
+        "cvi.environment": "t01"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.environment": "t01",
+      "cvi.applname": "nctmi"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "org.mongodb.driver.connection",
+    "time": "1620637895.936",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637895,
+        "nanoOfSecond": 936000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "org.mongodb.driver.connection",
+      "message": "Opened connection [connectionId{localValue:4, serverValue:105}] to 127.0.0.1:23001",
+      "endOfBatch": false,
+      "loggerFqcn": "org.slf4j.impl.Log4jLoggerAdapter",
+      "contextMap": {
+        "cvi.applname": "nctmi",
+        "cvi.environment": "t01"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.environment": "t01",
+      "cvi.applname": "nctmi"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.007",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 7000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for tstipmanagedsinglezh01.cs.com",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.applname": "nctmi",
+        "cvi.entrypoint.short": "MSC Test SWX, Managed IP BT Router Zurich Hardturm",
+        "cvi.environment": "t01",
+        "cvi.group": "vcatst",
+        "cvi.router.hostname": "ipcvsazh0010-01",
+        "cvi.router.site": "ZH",
+        "cvi.routercmr.tunnelid": "156",
+        "cvi.routercmr.vlanId": "0",
+        "cvi.user": "tstipmanagedsinglezh01.cs.com"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipcvsazh0010-01",
+      "cvi.routercmr.vlanId": "0",
+      "cvi.environment": "t01",
+      "cvi.applname": "nctmi",
+      "cvi.routercmr.tunnelid": "156",
+      "cvi.group": "vcatst",
+      "cvi.entrypoint.short": "MSC Test SWX, Managed IP BT Router Zurich Hardturm",
+      "cvi.user": "tstipmanagedsinglezh01.cs.com",
+      "cvi.router.site": "ZH"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.008",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 8000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for epachrswxzs12.pa.swx",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Selnau, not encrypted",
+        "cvi.group": "vcatst",
+        "cvi.qos.service.ert.input.BEF-INM": "0",
+        "cvi.qos.service.ert.input.BEF-TRD": "69986",
+        "cvi.qos.service.ert.input.CONTROL": "0",
+        "cvi.qos.service.ert.input.PRI-INM": "0",
+        "cvi.qos.service.ert.input.PRI-TRD": "8235",
+        "cvi.qos.service.ert.input.SCAP-SERVICES": "0",
+        "cvi.qos.service.ert.input.class-default": "0",
+        "cvi.qos.service.ert.output.BEF-INM": "0",
+        "cvi.qos.service.ert.output.BEF-TRD": "69986",
+        "cvi.qos.service.ert.output.CONTROL": "0",
+        "cvi.qos.service.ert.output.PARENT": "78221",
+        "cvi.qos.service.ert.output.PRI-INM": "0",
+        "cvi.qos.service.ert.output.PRI-TRD": "8235",
+        "cvi.qos.service.ert.output.SCAP-SERVICES": "0",
+        "cvi.qos.service.ert.output.class-default": "0",
+        "cvi.router.hostname": "ipaertzs01",
+        "cvi.router.site": "ZS",
+        "cvi.routercmr.tunnelid": "12",
+        "cvi.routercmr.vlanId": "41",
+        "cvi.user": "epachrswxzs12.pa.swx"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipaertzs01",
+      "cvi.qos.service.ert.input.BEF-INM": "0",
+      "cvi.qos.service.ert.output.class-default": "0",
+      "cvi.qos.service.ert.output.PARENT": "78221",
+      "cvi.routercmr.vlanId": "41",
+      "cvi.qos.service.ert.output.BEF-TRD": "69986",
+      "cvi.routercmr.tunnelid": "12",
+      "cvi.qos.service.ert.output.BEF-INM": "0",
+      "cvi.group": "vcatst",
+      "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Selnau, not encrypted",
+      "cvi.qos.service.ert.input.CONTROL": "0",
+      "cvi.router.site": "ZS",
+      "cvi.qos.service.ert.input.BEF-TRD": "69986",
+      "cvi.qos.service.ert.output.PRI-TRD": "8235",
+      "cvi.qos.service.ert.output.PRI-INM": "0",
+      "cvi.qos.service.ert.input.PRI-TRD": "8235",
+      "cvi.qos.service.ert.input.PRI-INM": "0",
+      "cvi.qos.service.ert.input.SCAP-SERVICES": "0",
+      "cvi.qos.service.ert.output.SCAP-SERVICES": "0",
+      "cvi.qos.service.ert.input.class-default": "0",
+      "cvi.user": "epachrswxzs12.pa.swx",
+      "cvi.qos.service.ert.output.CONTROL": "0"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.008",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 8000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for epachrswxzh06.pa.swx",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Hardturm, not encrypted",
+        "cvi.group": "vcatst",
+        "cvi.qos.service.ert.input.BEF-INM": "0",
+        "cvi.qos.service.ert.input.BEF-TRD": "69986",
+        "cvi.qos.service.ert.input.CONTROL": "0",
+        "cvi.qos.service.ert.input.PRI-INM": "0",
+        "cvi.qos.service.ert.input.PRI-TRD": "8235",
+        "cvi.qos.service.ert.input.SCAP-SERVICES": "0",
+        "cvi.qos.service.ert.input.class-default": "0",
+        "cvi.qos.service.ert.output.BEF-INM": "0",
+        "cvi.qos.service.ert.output.BEF-TRD": "69986",
+        "cvi.qos.service.ert.output.CONTROL": "0",
+        "cvi.qos.service.ert.output.PARENT": "78221",
+        "cvi.qos.service.ert.output.PRI-INM": "0",
+        "cvi.qos.service.ert.output.PRI-TRD": "8235",
+        "cvi.qos.service.ert.output.SCAP-SERVICES": "0",
+        "cvi.qos.service.ert.output.class-default": "0",
+        "cvi.router.hostname": "ipaertzh01",
+        "cvi.router.site": "ZH",
+        "cvi.routercmr.tunnelid": "6",
+        "cvi.routercmr.vlanId": "5",
+        "cvi.user": "epachrswxzh06.pa.swx"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipaertzh01",
+      "cvi.qos.service.ert.input.BEF-INM": "0",
+      "cvi.qos.service.ert.output.class-default": "0",
+      "cvi.qos.service.ert.output.PARENT": "78221",
+      "cvi.routercmr.vlanId": "5",
+      "cvi.qos.service.ert.output.BEF-TRD": "69986",
+      "cvi.routercmr.tunnelid": "6",
+      "cvi.qos.service.ert.output.BEF-INM": "0",
+      "cvi.group": "vcatst",
+      "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Hardturm, not encrypted",
+      "cvi.qos.service.ert.input.CONTROL": "0",
+      "cvi.router.site": "ZH",
+      "cvi.qos.service.ert.input.BEF-TRD": "69986",
+      "cvi.qos.service.ert.output.PRI-TRD": "8235",
+      "cvi.qos.service.ert.output.PRI-INM": "0",
+      "cvi.qos.service.ert.input.PRI-TRD": "8235",
+      "cvi.qos.service.ert.input.PRI-INM": "0",
+      "cvi.qos.service.ert.input.SCAP-SERVICES": "0",
+      "cvi.qos.service.ert.output.SCAP-SERVICES": "0",
+      "cvi.qos.service.ert.input.class-default": "0",
+      "cvi.user": "epachrswxzh06.pa.swx",
+      "cvi.qos.service.ert.output.CONTROL": "0"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.008",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 8000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for epachrswxzs06.pa.swx",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Selnau, not encrypted",
+        "cvi.group": "vcatst",
+        "cvi.router.hostname": "ipaertzs01",
+        "cvi.router.site": "ZS",
+        "cvi.routercmr.tunnelid": "6",
+        "cvi.routercmr.vlanId": "6",
+        "cvi.user": "epachrswxzs06.pa.swx"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipaertzs01",
+      "cvi.routercmr.vlanId": "6",
+      "cvi.routercmr.tunnelid": "6",
+      "cvi.group": "vcatst",
+      "cvi.entrypoint.short": "Development Test SWX, Ethernet Service Router Zurich Selnau, not encrypted",
+      "cvi.user": "epachrswxzs06.pa.swx",
+      "cvi.router.site": "ZS"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.008",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 8000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for rtlpttps1003.pa.swx",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.entrypoint.short": "SDX BGP no",
+        "cvi.group": "sdxtst",
+        "cvi.router.hostname": "ipaertzs01",
+        "cvi.router.site": "ZS",
+        "cvi.routercmr.tunnelid": "1003",
+        "cvi.routercmr.vlanId": "113",
+        "cvi.user": "rtlpttps1003.pa.swx"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipaertzs01",
+      "cvi.routercmr.vlanId": "113",
+      "cvi.routercmr.tunnelid": "1003",
+      "cvi.group": "sdxtst",
+      "cvi.entrypoint.short": "SDX BGP no",
+      "cvi.user": "rtlpttps1003.pa.swx",
+      "cvi.router.site": "ZS"
+    }
+  }
+}{
+  "host": "mdzhlgci01",
+  "index": "cvi-dev",
+  "sourcetype": "cvi-dev:cvi:logs",
+  "source": "cvi-t01-tools-nctmi",
+  "fields": {
+    "messageFormat": ""
+  },
+  "event": {
+    "severity": "INFO",
+    "logger": "cvi.net.lan.CviQosStatusService",
+    "time": "1620637897.009",
+    "thread": "main",
+    "message": {
+      "instant": {
+        "epochSecond": 1620637897,
+        "nanoOfSecond": 8000000
+      },
+      "thread": "main",
+      "level": "INFO",
+      "loggerName": "cvi.net.lan.CviQosStatusService",
+      "message": "QosStatus for rtlpttps1001.pa.swx",
+      "endOfBatch": false,
+      "loggerFqcn": "org.apache.log4j.Category",
+      "contextMap": {
+        "cvi.entrypoint.short": "SDX EIGRP non",
+        "cvi.group": "sdxtst",
+        "cvi.router.hostname": "ipaertzs01",
+        "cvi.router.site": "ZS",
+        "cvi.routercmr.tunnelid": "1001",
+        "cvi.routercmr.vlanId": "111",
+        "cvi.user": "rtlpttps1001.pa.swx"
+      },
+      "threadId": 1,
+      "threadPriority": 5
+    },
+    "properties": {
+      "cvi.router.hostname": "ipaertzs01",
+      "cvi.routercmr.vlanId": "111",
+      "cvi.routercmr.tunnelid": "1001",
+      "cvi.group": "sdxtst",
+      "cvi.entrypoint.short": "SDX EIGRP non",
+      "cvi.user": "rtlpttps1001.pa.swx",
+      "cvi.router.site": "ZS"
+    }
+  }
+}
